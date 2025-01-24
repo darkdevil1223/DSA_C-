@@ -24,16 +24,18 @@ void fnc(int a[],int s,int k){
 
 int main(){
     int s,k;
-    cout<<"enter size if arr";
+    cout<<"enter size if arr: ";
     cin>>s;
     int a[s];
-    cout<<"enter the value of arr";
+    cout<<"enter the value of arr: ";
     for (int i = 0; i < s; i++)
     {
         cin>>a[i];
     }
     
-    cout<<"enter the value of k";
+    cout<<"enter the value of k: ";
     cin>>k;
     fnc(a,s,k);
+
+    return 0;
 }
